@@ -1,5 +1,5 @@
 {
-  "homepage": "https://LIANGLW-d.github.io/Personal-Website",
+  "homepage": "https://lianglw-d.github.io/Personal-Website/",
   "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --remove '*.pdf'",
     "start": "react-scripts start",
     "build": "CI=false react-scripts build",
     "test": "react-scripts test",
