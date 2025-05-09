@@ -32,14 +32,21 @@ jobs:
       - name: Setup Node.js 🔧
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
           cache: 'npm'
 
+      - name: Clean npm cache 🧹
+        run: npm cache clean --force
+
       - name: Install dependencies 📦
-        run: npm ci
+        run: |
+          rm -rf node_modules
+          rm -rf package-lock.json
+          npm install
 
       - name: Build 🔧
-        run: npm run build
+        run: |
+          npm run build
         env:
           CI: false
 
