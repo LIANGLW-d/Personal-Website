@@ -44,15 +44,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PRODUCT DESIGNER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PRODUCT-FOCUSED DESIGNER TURNED BUILDER, DRIVING IDEAS FROM ZERO TO ONE",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Define product strategy, roadmap, and success metrics to connect user needs with business outcomes"),
+    emoji("⚡ Lead cross-functional teams to turn ideas into user-centered products through agile and iterative development"),
+    emoji("⚡ Translate research insights into intuitive UX/UI with Figma and create interactive prototypes for validation"),
+    emoji("⚡ Build and test functional hardware and digital prototypes using React, Arduino/ESP32, and sensor integration"),
+    emoji("⚡ Balance design, technical feasibility, and business goals to drive end-to-end product execution")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -60,52 +58,40 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Product Management",
+      fontAwesomeClassname: "fas fa-tasks"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Product Design",
+      fontAwesomeClassname: "fas fa-pencil-ruler"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "User Research",
+      fontAwesomeClassname: "fas fa-users"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Human-Computer Interaction",
+      fontAwesomeClassname: "fas fa-laptop-code"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "CAD",
+      fontAwesomeClassname: "fas fa-drafting-compass"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Arduino/ESP32",
+      fontAwesomeClassname: "fas fa-microchip"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "UI/UX Design",
+      fontAwesomeClassname: "fas fa-palette"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -143,16 +129,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Product Strategy and Roadmapping", //Insert stack or technology you have experience in
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Cross-Functional Collaboration and Communication",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "User-Centered Design and Problem Solving",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
