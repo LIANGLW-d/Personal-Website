@@ -73,9 +73,13 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            <a href="#">
+            <button
+              className="theme-toggle"
+              aria-label="Toggle theme"
+              onClick={(e) => e.preventDefault()}
+            >
               <ToggleSwitch />
-            </a>
+            </button>
           </li>
         </ul>
       </header>
